@@ -1,0 +1,13 @@
+.bg-image{
+    @apply flex items-center justify-center relative w-full;
+    height: 600px;
+    background-image: url("https://images.unsplash.com/photo-1499529112087-3cb3b73cec95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80");
+}
+.bg-content{
+    @apply flex relative flex-col;
+    width: 400px;
+}
+.header-title{
+    @apply text-white text-2xl font-bold;
+    letter-spacing: 8px;
+}

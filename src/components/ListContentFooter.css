@@ -1,0 +1,12 @@
+.content-footer{
+    @apply flex justify-between h-full text-xs items-center;
+}
+.menu-item{
+    @apply cursor-pointer text-gray-900 font-bold;
+}
+.menu-item:hover{
+    @apply text-gray-800;
+}
+.left-item{
+    @apply cursor-pointer text-green-600 font-bold;
+}
